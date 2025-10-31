@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Functions</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" /><link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="converter">
+      <h1>CURRENCY CONVERTER</h1>
+
+      <input type="number" id="number" placeholder="ENTER AN AMOUNT" />
+
+      <div class="selector">
+        <div class="selector1">
+          <label for="from">From:</label>
+          <select id="from">
+            <option value="usd">Dollar(USD)</option>
+            <option value="ngn">Naira(NGN)</option>
+            <option value="gbp">Pounds(GBP)</option>
+            <option value="sgd">Singapore(SGD)</option>
+
+          </select>
+        </div>
+
+        <section class="selector2">
+          <label for="to">to</label>
+          <select id="to">
+            <option value="ngn">Naira(NGN)</option>
+            <option value="usd">Dollar(USD)</option>
+            <option value="gbp">Pounds(GBP)</option>
+            <option value="sgd">Singapore(SGD)</option>
+
+
+          </select>
+        </div>
+      </div>    
+       
+
+      <button id="submit">CONVERT</button>
+     
+      <p id="results"></p>
+    </section>
+    <!-- <div class="link">
+      <a href="naira.html">Dollar to Naira!!!</a>
+      
+    </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
