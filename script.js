@@ -31,8 +31,7 @@ document.getElementById("submit").onclick = function () {
   //   return dollarValue;
   //   // alert(`The  ${Naira} Naira is equal to ${dollarValue} Dollars `);
   // }
-  // nairaToDollar(num);
-
+  // nairaTo
   let priceOfFrom = price[from]
   let priceOfTo = price[to]
   console.log(priceOfFrom)
@@ -46,7 +45,7 @@ document.getElementById("submit").onclick = function () {
 
   // let dol = nairaToDollar(num);
 
-  re.innerHTML = `converting ${num} ${from} to  ${to} is equal to ${result}`;
+  re.innerHTML = `converting ${num}${from} to  ${to} is equal to ${result}${to}`;
 };
 
 // document.getElementById("submit").onclick =function () {
